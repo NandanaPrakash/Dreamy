@@ -56,10 +56,6 @@ module.exports = {
           inline: true,
         }
       )
-
-    c
-      
-
     
     message.reply({ embeds: [embed], components: [row] });
   },
