@@ -56,7 +56,6 @@ module.exports = {
           inline: true,
         }
       )
-      .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 })
 
     c
       
