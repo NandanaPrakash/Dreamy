@@ -56,8 +56,7 @@ module.exports = {
           inline: true,
         }
       )
-      .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1212773181002354688/1231294678977216663/-Roles-_4.png?ex=66366f87&is=6623fa87&hm=8942d059714148b0158ed84e68c4a0767f0b6331399baea890350d14265c609e&`);
+      .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 })
 
     c
       
