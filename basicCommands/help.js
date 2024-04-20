@@ -57,25 +57,11 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1170652474563117138/1224660177039396876/MULTI_MUSIC_v1.5.png?ex=661e4cab&is=660bd7ab&hm=f7a542462fabaf9c1530ece5aa72597cff3ac032876bba46df5ddba7e122ea99&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1212773181002354688/1231294678977216663/-Roles-_4.png?ex=66366f87&is=6623fa87&hm=8942d059714148b0158ed84e68c4a0767f0b6331399baea890350d14265c609e&`);
 
-    const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
-      .setStyle(ButtonStyle.Link);
-
-    const button2 = new ButtonBuilder()
-      .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
-      .setStyle(ButtonStyle.Link);
-
-    const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
-      .setStyle(ButtonStyle.Link);
+    c
       
-    const row = new ActionRowBuilder()
-      .addComponents(button1, button2, button3);
+
     
     message.reply({ embeds: [embed], components: [row] });
   },
