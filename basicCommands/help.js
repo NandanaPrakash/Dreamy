@@ -55,7 +55,6 @@ module.exports = {
           value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
           inline: true,
         }
-      )
     
     message.reply({ embeds: [embed], components: [row] });
   },
